@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>hihiyuru</title>
+  <meta name="description" content="hihiyuru 做的小工具：郵輪艙門裝飾工作台、每日記帳、匿名聊天室。" />
+  <link rel="canonical" href="https://hihiyuru.github.io/" />
+  <meta property="og:site_name" content="hihiyuru" />
+  <meta property="og:title" content="hihiyuru" />
+  <meta property="og:url" content="https://hihiyuru.github.io/" />
+  <!-- Site name Google shows above every result on hihiyuru.github.io: https://developers.google.com/search/docs/appearance/site-names -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "hihiyuru",
+      "url": "https://hihiyuru.github.io/"
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f5f3; --fg: #1f1d1a; --muted: #6b665f; --line: #dcd8d2; --link: #6e4f31;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1b1a18; --fg: #ece8e2; --muted: #a39d94; --line: #3d3934; --link: #e0b98c; }
+    }
+    * { box-sizing: border-box }
+    body {
+      margin: 0; padding: 48px 16px; background: var(--bg); color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    }
+    main { max-width: 560px; margin: 0 auto }
+    h1 { font-size: 24px; margin: 0 0 24px }
+    ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line) }
+    li { padding: 14px 0; border-bottom: 1px solid var(--line) }
+    a { color: var(--link); font-weight: 600; text-decoration: none }
+    a:hover { text-decoration: underline }
+    p { margin: 2px 0 0; color: var(--muted); font-size: 14px }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>hihiyuru</h1>
+    <ul>
+      <li>
+        <a href="/cruise-door-studio/">郵輪艙門裝飾工作台</a>
+        <p>把貼紙排在等比例的郵輪房門上，照實際尺寸印出來。</p>
+      </li>
+      <li>
+        <a href="/expense-tracker/">每日記帳</a>
+        <p>記每天的花費，可以離線用，同步到 Google 試算表。</p>
+      </li>
+      <li>
+        <a href="/chatRoom/">匿名聊天室</a>
+        <p>用 React 做的聊天室。</p>
+      </li>
+      <li>
+        <a href="/reserveRoom/">reserveRoom</a>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
